@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+a:hover ,a:focus ,a:active{
+    text-decoration: none;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,p ,a {
+
+    margin: 0px;
+    padding: 0px;
+}
+*:focus, *:active , *:hover {
+    outline:0 none;
+}
+.sidebar {
+
+    position: fixed;
+    width: 260px;
+    background-color: #21a4ff;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+}
+
+.logo {
+
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #82ceec;
+
+}
+.logo a {
+
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+
+}
+.nav {
+    margin-top: 20px;
+    display: block !important;
+}
+.nav li {
+    margin: 12px;
+}
+.nav li a {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    color: #fff;
+    transition: 0.3s all;
+}
+.nav ul li a i {
+
+    margin-left: 14px;
+    margin-right: 5px;
+
+}
+.nav li a:hover {
+
+    background-color: #fff;
+    border-radius: 50px;
+    color: #21a4ff;
+    text-decoration: none;
+
+}
+.user-avatar {
+    width: 160px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+a:hover ,a:focus ,a:active{
+    text-decoration: none;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,p ,a {
+
+    margin: 0px;
+    padding: 0px;
+}
+*:focus, *:active , *:hover {
+    outline:0 none;
+}
+.login-page {
+    background-color: #3ca2e0;
+    height: 100vh;
+}
+.main-login-sec {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 400px;
+    max-width: 100%;
+    padding: 10px;
+}
+.login-header {
+    text-align: center;
+}
+.user-avatar {
+    width: 250px;
+}
+.login-header h1 {
+	font-size: 40px;
+	color: #fff;
+	margin: 23px 0 20px 0;
+	text-align: left;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+.form-group label {
+	color: #fff;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+.form-group input {
+    height: 45px;
+    border: none;
+    color: #000;
+    font-size: 15px;
+}
+.form-check .form-check-label {
+    color: #fff;
+}
+.submit-btn {
+    width: 100%;
+    margin-top: 25px;
+    height: 45px;
+    text-transform: uppercase;
+    background-color: #1b526c !important;
+    border: none !important;
+}
+.register {
+    margin-top: 18px;
+    text-align: center;
+}
+.register p {
+    font-size: 14px;
+    color: #fff;
+}
+.register p a {
+    color: #3b24b4;
+}

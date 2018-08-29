@@ -1,0 +1,37 @@
+.main-panel {
+	position: relative;
+	float: right;
+	width: calc(100% - 260px);
+	background-color: #e3e3e3;
+	background-color: #ebecf1;
+	-webkit-transition: all .5s cubic-bezier(.685,.0473,.346,1);
+	-o-transition: all .5s cubic-bezier(.685,.0473,.346,1);
+	transition: all .5s cubic-bezier(.685,.0473,.346,1);
+  height: 100vh;
+}
+.navbar-absolute {
+    position: absolute !important;
+    width: 100%;
+}
+.navbar {
+    background-color: #000;
+    color:#fff;
+}
+.navbar-toggle {
+    display: none;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+.navbar-toggler {
+    display: none;
+}
+.navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav a {
+
+    color: #fff !important;
+
+}
